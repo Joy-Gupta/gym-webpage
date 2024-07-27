@@ -1,0 +1,118 @@
+/*=============== Mobile Device Media Quary ============================ */
+
+
+
+@media only screen and (max-width: 590px){
+
+
+    /* ========================Nav bar================== */
+
+    .nav-bar {
+        align-items: center;
+    }
+    .fa-solid{
+        display: block;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    .nav-items {
+        display: none;
+    }
+    .brand {
+        font-size: 4rem;
+    }
+    
+
+    /* ---==================Banner part start=================== */
+
+
+    .half-width {
+          width:400px;
+          margin-bottom: 50px;
+          flex-direction: column;
+          border: 2px solid salmon;
+        }
+    .half-width h1 {
+
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 50px;
+        color: #ffffff;
+        padding-bottom: 20px;
+        font-family: Inter;
+        }
+    .half-width p{
+        font-family: Inter;
+    }    
+    .half-width img{
+        width: 100%;
+        }
+    .banner-parent{
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    .btn-banner{
+        display: flexbox;
+        grid-column-start: auto;
+        justify-content:left;
+        height: 100px;
+        gap: 50px;
+    }
+
+          /* -===================Change habit part=============== */
+   
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 40%;
+           
+    }
+    .title{
+        display:grid;
+        gap: 30px;
+        width: 40%;
+    }
+    
+        /* =================run a extra mile====================== */
+
+    .globall{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 40%;
+    }
+    .half-widthh img{
+        width: 100%;
+        margin: auto;
+    }
+
+    /* ===================Meet our team========================= */
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 40%;
+    }
+
+    .title-team{
+        display:grid;
+        gap: 30px;
+        width: 40%;
+    }
+
+    /* ==========================Footer============================ */
+
+    .footer-contenar {
+        flex-direction: column;
+    }
+    .footer-brand-info {
+        max-width: 420px;
+        
+    }
+
+
+}

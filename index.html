@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gym.css"/>
+    <link rel="stylesheet" href="responsive.css"/>
     <title>Gym webpage</title>
-    <script
-      src="https://kit.fontawesome.com/9492e3fdac.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/8ddf321cf8.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <!-- =========================Navbar Section============== -->
     <header>
-        <nav class="container">
-          <div class="icon">
-            <h1 class="text-style">Fitness</h1>
-          </div>
-          <div class="navbar-list">
-            <i class="mobile-menu fas fa-bars"></i>
-            <a class="home" href="#">Home</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            
-          </div>
+        <nav class="nav-bar contenar">
+            <h1 class="brand">Fitness</h1>
+            <ul class="nav-items">
+                <li><a class="nav-link nav-link-active" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">Service</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
         </nav>
+
       </header>
 
       
@@ -34,31 +30,40 @@
 
         <!--=======================Banner part========================= -->
 
-        <section id="why-box">
+    <section id="why-box">
             
             <section class="global">
-                <div class="half-width">
-                    <h1>Get body in shape & stay healthy</h1>
-                    <P>A huge selection of health and fitness content,   healthy recipes<br> 
-                    and transformation stories to help you get fit and stay fit!</P>
-                    <div class="btn-banner">
-                        <a class="join-button" target="_blank" href="">Join Club Now!</a>
-                        <a class="download-button" target="_blank"href="">Download Now!</a>
+                <div class="banner-parent">
+                    <div class="half-width">
+                        <h1>Get body in <span id="shape">shape</span> & stay healthy</h1>
+                        <P>A huge selection of health and fitness content,  healthy recipes<br> 
+                        and transformation stories to help you get fit and stay fit!</P>
+                        <div class="btn-banner">
+                            <div>
+                                <a class="join-button" target="_blank" href="">Join Club Now!</a>
+                            </div>
+                            <div>
+                                <a class="download-button" target="_blank"href="">Download Now!</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="half-width">
+                       <img src="./images/Images 2.png" alt="">  
+                   </div>
                 </div>
-                <div class="half-width">
-                   <img src="./images/Images 2.png" alt="">  
-               </div>
             </section>
     
 
             <!--========================Change your habits======= -->
 
-            <section id="card-box">
-            <div class="container">
+        <section id="card-box">
+            <div class="container-habit">
                 <div class="title">
-                    <h1 class="tittle">Change Your Habits</h1>
-                    <p class="subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <div>
+                        <h1 class="tittle">Change Your Habits</h1>
+                        <p class="subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    </div>
+                    
                 </div>
         
                 <div class="card-container">
@@ -99,11 +104,9 @@
                 </div>
         
             </div>
-            </section>
+        </section>
 
             <!-- ============Run a extra mile============================= -->
-
-
             <section class="globall">
                 <div class="half-widthh">
                     <h1>Run an Extra<br> Mile Easily</h1>
@@ -116,10 +119,124 @@
                    <img src="./images/run.jpg" alt="">  
                </div>
             </section>
+
+            
+            <!-- ==============Meet our team================= -->
+
+
+            <section>
+
+                <div class="container-team">
+
+                    <div class="title-team">
+                        <h1 class="tittle">Meet Our Team</h1>
+                        <p class="subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    </div>
     
+                    <div class="container">
+                        <div class="food">
+                            <img src="./images/trainer1.png" alt="">
+                            <div class="trainer-des">
+                                <h3>perome Bell</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                        <div class="food">
+                            <img src="./images/trainer2.png" alt="">
+                            <div class="trainer-des">
+                                <h3>Cameron Will</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                        <div class="food">
+                            <img src="./images/trainer3.png" alt="">
+                            <div class="trainer-des">
+                                <h3>Darrel steward</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                        <div class="food">
+                            <img src="./images/trainer4.png" alt="">
+                            <div class="trainer-des">
+                                <h3>Dinne Rusell</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                        <div class="food">
+                            <img src="./images/trainer5.png" alt="">
+                            <div class="trainer-des">
+                                <h3>Cody Fisher</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                        <div class="food">
+                            <img src="/images/trainer6.png" alt="">
+                            <div class="trainer-des">
+                                <h3>Theresa Webb</h3>
+                                <p class="description">trainer</p>
+                            </div>
+                        </div>
+                           
+                    </div>
+
+                </div>
+
+            </section>
+
+
+    </section>
+
+</main>
+            <!-- ====================Footer==================== -->
+<footer>
+   
+    
+
+        <section class="footer-contenar contenar">
+            <div class="footer-brand-info">
+                <h1 class="brand f-brand">Fitness</h1>
+                <p class="description">'What hurts today makes you stronger tomorrow'.Fitness fives us the ultimate confidence in our life.Morover,it is beneficial for health and body as well.</p>
+            </div>
+            <div>
+                <h3>Get Started</h3>
+                <a href="">
+                    <p class="description">Service</p>
+                </a>
+                <a href="">
+                    <p class="description">Contact Us</p>
+                </a>
+                <a href="">
+                    <p class="description">Affiliate Program</p>
+                </a>
+                <a href="">
+                    <p class="description">About Us</p>
+                </a>
+            </div>
+            <div>
+                <h3>Get Started</h3>
+                <a href="">
+                    <p class="description">Fitness</p>
+                </a>
+                <a href="">
+                    <p class="description">Platform</p>
+                </a>
+                <a href="">
+                    <p class="description">Workout Libary</p>
+                </a>
+                <a href="">
+                    <p class="description">App Design</p>
+                </a>
+            </div>
         </section>
 
-</main>  
+        <hr class="contenar footer-hr">
+        <p class="footer-copyright">All right reserved &COPY; Fitness 2024</p>
+
+
+
+    
+     
+</footer>  
 
 </body>
 </html>
