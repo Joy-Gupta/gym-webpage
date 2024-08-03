@@ -13,6 +13,13 @@ body{
 *p{
     color: rgba(255, 255, 255, 0.5);
 }
+*{
+    border: 1px solid red;
+   }
+   
+body{
+    border: 2px dashed green;
+   }
 
 /*-==================== Navbar-styles -=========================*/
 
@@ -136,7 +143,7 @@ body{
     width: 884px;
     margin:auto; 
 }
-#card-box .title{
+.title{
     
 font-family: Inter;
 line-height: 32px;

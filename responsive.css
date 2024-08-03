@@ -7,6 +7,23 @@
 
     /* ========================Nav bar================== */
 
+   *{
+    border: 1px solid red;
+   }
+   
+body{
+    border: 2px dashed green;
+   }
+
+   #why-box{
+    display: grid;
+    width: 80%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   }
+  
+   
     .nav-bar {
         align-items: center;
     }
@@ -66,13 +83,13 @@
         flex-direction: column;
         gap: 30px;
         align-items: center;
-        width: 40%;
-           
+        width: 100%;
+        text-align: left;       
     }
     .title{
         display:grid;
         gap: 30px;
-        width: 40%;
+        width: 100%;
     }
     
         /* =================run a extra mile====================== */
@@ -81,7 +98,7 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        width: 40%;
+        width: 100%;
     }
     .half-widthh img{
         width: 100%;
@@ -95,14 +112,19 @@
         flex-direction: column;
         gap: 30px;
         align-items: center;
-        width: 40%;
+        width: 100%;
     }
+    
 
     .title-team{
         display:grid;
         gap: 30px;
-        width: 40%;
+        width: 100%;
+        justify-items:center;
+        justify-content: center;
+        text-align: center;
     }
+
 
     /* ==========================Footer============================ */
 
