@@ -13,13 +13,6 @@ body{
 *p{
     color: rgba(255, 255, 255, 0.5);
 }
-*{
-    border: 1px solid red;
-   }
-   
-body{
-    border: 2px dashed green;
-   }
 
 /*-==================== Navbar-styles -=========================*/
 
@@ -242,6 +235,97 @@ line-height: 24px;
 .half-widthh{
     background-color: rgb(57, 56, 56);
 }
+
+/* =====================BMI============================== */
+
+.bmi-section {
+    background-color: rgba(128, 128, 128, 0.274);
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+
+.bmi-main-contenar {
+    display: flex;
+    margin-top: 88px;
+    padding: 49px 0;
+    color: #ffffff;
+    gap: 10px;
+
+
+}
+
+.bmi-cal-header {
+    max-width: 100%;
+    margin-top: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+.bmi-cal-header h1{
+    font-size: 50px;
+}
+
+.bmi-header-title {
+    font-size: 4rem;
+}
+.bmi-chart-contenar{
+    width: 40%;
+}
+.bmi-chart-contenar h1{
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+th {
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    padding: 9px 17px;
+}
+
+table td {
+    color: gray;
+}
+
+.bmi-cal input,
+select {
+    background: transparent;
+    padding: 16px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+select {
+    color: gray;
+}
+
+.bmi-cal-contenar {
+    max-width: 70%;
+}
+.bmi-cal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.grid-col {
+    grid-column: span 2;
+}
+.bmi-calculator-header h1 {
+    font-size:30px;
+    margin-bottom: 14px;
+}
+.bmi-calculator-header p {
+    margin-bottom: 34px;
+}
+.join-btn{
+    background-color: #ee4242;
+    font-family: Inter;
+    color: #ffffff;
+}
+
+
 
 /* --========================Meet our team====================== */
 

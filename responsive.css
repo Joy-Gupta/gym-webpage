@@ -7,13 +7,9 @@
 
     /* ========================Nav bar================== */
 
-   *{
-    border: 1px solid red;
-   }
-   
-body{
-    border: 2px dashed green;
-   }
+    *p{
+        color: rgba(255, 255, 255, 0.5);
+    }    
 
    #why-box{
     display: grid;
@@ -103,6 +99,41 @@ body{
     .half-widthh img{
         width: 100%;
         margin: auto;
+    }
+
+    /* ====================BMI=================================== */
+
+    .bmi-main-contenar {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bmi-cal input,
+    select {
+        padding: 14px 0px;
+        width: 100%;
+    }
+    .bmi-chart-contenar{
+       margin-left: 100px;
+    }
+
+    .bmi-header-title {
+        font-size: 2rem;
+
+    }
+
+    .bmi-cal-contenar {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .bmi-cal-header {
+        max-width: 90%;
+    }
+
+    .bmi-cal {
+        gap: 15px;
+
     }
 
     /* ===================Meet our team========================= */
